@@ -1,7 +1,5 @@
 # Andrés Ruiz Montanez
-Entrepreneur & CTPO | 14+ years building AI & data-driven software systems<br>
-ES 🇨🇴 · EN 🇺🇸 · FR 🇫🇷 · DE 🇩🇪<br>
-<sub>🤿 Certified Rescue Scuba Diver · 🍳 creative cook · 🎓 M.Sc. Project Management & Data Science · B.Sc. Architecture</sub>
+Entrepreneur & CTPO | 14+ years building AI & data-driven software systems
 
 
 [![Website](https://img.shields.io/badge/arm.consulting-000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arm.consulting)
