@@ -18,9 +18,9 @@ jobs:
           GH_TOKEN: ${{ secrets.REPO_COUNT_TOKEN }}
         run: |
           count=$(gh api 'user/repos?affiliation=owner&visibility=private&per_page=100' --paginate --jq '.[].name' | wc -l | tr -d ' ')
-          sed -i "s|<!-- repo-count -->.*<!-- /repo-count -->|<!-- repo-count -->![Private repositories](https://img.shields.io/badge/%F0%9F%94%92_Private_repositories-${count}-6E40C9?style=for-the-badge\&labelColor=24292F)<!-- /repo-count -->|" README.md
+          sed -i "s|<!-- repo-count -->.*<!-- /repo-count -->|<!-- repo-count --><img alt="Private repositories" src="https://img.shields.io/badge/%F0%9F%94%92_Private_repositories-${count}-6E40C9?style=for-the-badge\&labelColor=24292F"><!-- /repo-count -->|" README.md
           public_count=$(gh api 'user/repos?affiliation=owner&visibility=public&per_page=100' --paginate --jq '.[].name' | wc -l | tr -d ' ')
-          sed -i "s|<!-- public-repo-count -->.*<!-- /public-repo-count -->|<!-- public-repo-count -->![Public repositories](https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F_Public_repositories-${public_count}-2EA44F?style=for-the-badge\&labelColor=24292F)<!-- /public-repo-count -->|" README.md
+          sed -i "s|<!-- public-repo-count -->.*<!-- /public-repo-count -->|<!-- public-repo-count --><img alt="Public repositories" src="https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F_Public_repositories-${public_count}-2EA44F?style=for-the-badge\&labelColor=24292F"><!-- /public-repo-count -->|" README.md
       - name: Commit if changed
         run: |
           git diff --quiet && exit 0
