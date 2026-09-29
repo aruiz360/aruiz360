@@ -11,6 +11,7 @@ Entrepreneur & CTPO | 14+ years building AI & data-driven software systems
 
 [![CV](https://img.shields.io/badge/Download_CV-555?style=for-the-badge&logo=readdotcv&logoColor=white)](https://arm.consulting/cv/andres-ruiz-montanez-cv-en-US.pdf)
 
-<!-- repo-count -->Private repositories: 117<!-- /repo-count --> 🔒 — the code lives there. The stories live on [arm.consulting](https://arm.consulting/projects).
+<!-- repo-count -->Private repositories: 117<!-- /repo-count --> 🔒<br>
+<!-- public-repo-count -->Public repositories: 3<!-- /public-repo-count --> 👁️
 
 

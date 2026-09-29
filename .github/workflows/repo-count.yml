@@ -13,16 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Count private repositories
+      - name: Count private and public repositories
         env:
           GH_TOKEN: ${{ secrets.REPO_COUNT_TOKEN }}
         run: |
           count=$(gh api 'user/repos?affiliation=owner&visibility=private&per_page=100' --paginate --jq '.[].name' | wc -l | tr -d ' ')
           sed -i "s|<!-- repo-count -->.*<!-- /repo-count -->|<!-- repo-count -->Private repositories: ${count}<!-- /repo-count -->|" README.md
+          public_count=$(gh api 'user/repos?affiliation=owner&visibility=public&per_page=100' --paginate --jq '.[].name' | wc -l | tr -d ' ')
+          sed -i "s|<!-- public-repo-count -->.*<!-- /public-repo-count -->|<!-- public-repo-count -->Public repositories: ${public_count}<!-- /public-repo-count -->|" README.md
       - name: Commit if changed
         run: |
           git diff --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update private repository count"
+          git commit -am "Update repository counts"
           git push
