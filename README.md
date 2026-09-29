@@ -9,7 +9,7 @@ ES 🇨🇴 · EN 🇺🇸 · FR 🇫🇷 · DE 🇩🇪<br>
 [![Email](https://img.shields.io/badge/a.ruiz@arm.consulting-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a.ruiz@arm.consulting)
 [![CV](https://img.shields.io/badge/Download_CV-555?style=for-the-badge&logo=readdotcv&logoColor=white)](https://arm.consulting/cv/andres-ruiz-montanez-cv-en-US.pdf)
 
-<!-- repo-count --><img alt="Private repositories" src="https://img.shields.io/badge/%F0%9F%94%92_Private_repositories-117-6E40C9?style=for-the-badge&labelColor=24292F"><!-- /repo-count -->
-<!-- public-repo-count --><img alt="Public repositories" src="https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F_Public_repositories-4-2EA44F?style=for-the-badge&labelColor=24292F"><!-- /public-repo-count -->
+<!-- repo-count --><img alt='Private repositories' src='https://img.shields.io/badge/%F0%9F%94%92_Private_repositories-117-6E40C9?style=for-the-badge&labelColor=24292F'><!-- /repo-count -->
+<!-- public-repo-count --><img alt='Public repositories' src='https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F_Public_repositories-4-2EA44F?style=for-the-badge&labelColor=24292F'><!-- /public-repo-count -->
 
 
