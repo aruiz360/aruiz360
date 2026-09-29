@@ -8,7 +8,7 @@ Entrepreneur & CTPO | 14+ years building AI & data-driven software systems
 [![Email](https://img.shields.io/badge/a.ruiz@arm.consulting-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a.ruiz@arm.consulting)
 [![CV](https://img.shields.io/badge/Download_CV-555?style=for-the-badge&logo=readdotcv&logoColor=white)](https://arm.consulting/cv/andres-ruiz-montanez-cv-en-US.pdf)
 
-<!-- repo-count -->Private repositories: 117<!-- /repo-count --> 🔒<br>
-<!-- public-repo-count -->Public repositories: 4<!-- /public-repo-count --> 👁️
+<!-- repo-count -->![Private repositories](https://img.shields.io/badge/%F0%9F%94%92_Private_repositories-117-6E40C9?style=for-the-badge&labelColor=24292F)<!-- /repo-count -->
+<!-- public-repo-count -->![Public repositories](https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F_Public_repositories-4-2EA44F?style=for-the-badge&labelColor=24292F)<!-- /public-repo-count -->
 
 
